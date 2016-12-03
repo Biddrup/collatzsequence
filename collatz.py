@@ -18,5 +18,6 @@ sequence = []
 while n != 1:
     n = collatz(int(n))
     sequence.append(n)
-    
+
+#This will print  
 print (sequence)
